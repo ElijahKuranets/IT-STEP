@@ -39,6 +39,6 @@ void Circle::setCenterY(const double newCenterY) {
 
 double Circle::getArea() {
 	double S = PI * pow(radius, 2);
-	if (S == 0) throw std::logic_error("Нельзя вычислить площадь не существующего круга!!!");
+	if (S == 0) throw std::logic_error("Нельзя вычислить площадь не существующего круга");
 	return S;
 }
